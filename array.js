@@ -16,3 +16,17 @@ console.log(typeof student);
 console.log(typeof friends); // it's not a valid way to check array element type
 console.log(Array.isArray(friends));
 console.log(typeof add);
+
+// ------------------------------
+console.log(friends.includes(17));
+console.log(friends.includes(100));
+console.log(friends.indexOf(13));
+
+if(friends.indexOf(252) !== -1){
+
+}
+
+// concat 
+const newFriends = [1, 3, 5, 8, 10];
+const allFriends = friends.concat(newFriends);
+console.log(allFriends);
